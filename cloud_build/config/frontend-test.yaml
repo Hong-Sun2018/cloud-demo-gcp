@@ -2,4 +2,3 @@ steps:
 
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'europe-north1-docker.pkg.dev/primal-stock-338302/frontend-test/my-image', '.']
-
