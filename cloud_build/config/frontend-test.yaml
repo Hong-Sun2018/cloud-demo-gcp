@@ -1,4 +1,4 @@
 steps:
 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'frontend-test', '.']
+  args: ['build', '-t', 'europe-north1-docker.pkg.dev/${PROJECT_ID}/my-docker-repo/frontend-test', '.']
