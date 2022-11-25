@@ -4,4 +4,4 @@ steps:
   args: ['build', '-t', 'europe-north1-docker.pkg.dev/${PROJECT_ID}/frontend-test/vue-image', '.']
 # 2 Push docker image
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'europe-north1-docker.pkg.dev/primal-stock-338302/frontend-test/vue-image']
+  args: ['push', 'europe-north1-docker.pkg.dev/primal-stock-338302/frontend-vue']
